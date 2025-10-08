@@ -1,0 +1,36 @@
+[
+    {
+        "id": "101",
+        "username": "Imuser1",
+        "password": "1",
+        "first_name": "Tham",
+        "last_name": "Chong",
+        "dob": "2004-2-5",
+        "email": "user1@gmail.com",
+        "favorite_smartphone": "001",
+        "pp": "101.png"
+    },
+    {
+        "id": "102",
+        "username": "Imuser2",
+        "password": "456def",
+        "first_name": "Wong",
+        "last_name": "Lee",
+        "dob": "2004-1-14",
+        "email": "user2@gmail.com",
+        "favorite_smartphone": "001",
+        "pp": "102.png"
+    },
+    {
+        "id": "103",
+        "username": "Imuser3",
+        "password": "789ghi",
+        "first_name": "Mok",
+        "last_name": "Kong",
+        "dob": "2004-6-25",
+        "email": "user3@gmail.com",
+        "favorite_smartphone": "002",
+        "pp": "103.png"
+    }
+
+]

@@ -1,0 +1,93 @@
+/* CSS for the About Us page */
+    .about-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border-radius: 15px;
+        overflow: hidden;
+        border: none;
+    }
+    .about-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+    .mission-card {
+        background: linear-gradient(135deg, #ffffff 0%, #e8f0f8 100%);
+        border-left: 5px solid #dbcdf0;
+    }
+    .vision-card {
+        background: linear-gradient(135deg, #ffffff 0%, #e8f0f8 100%);
+        border-left: 5px solid #f2c6de;
+    }
+    .brand-card {
+        background: linear-gradient(135deg, #ffffff 0%, #e8f0f8 100%);
+        border-left: 5px solid #faedcb;
+    }
+    .feature-icon {
+        font-size: 1.5rem;
+        margin-right: 10px;
+        color: #0d6efd;
+    }
+    .highlight-box {
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 20px 0;
+    }
+    .tech-excellence {
+        opacity: 0;
+        transform: translateY(50px); /* Increased from 20px */
+        animation: fadeInUp 1.2s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    }
+    
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(50px); /* Increased from 20px */
+            scale: 0.95;
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+            scale: 1;
+        }
+    }
+    
+    .tech-excellence-delay-1 {
+        animation-delay: 0.2s;
+    }
+    
+    .tech-excellence-delay-2 {
+        animation-delay: 0.4s;
+    }
+    .feature-card {
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 15px;
+    overflow: hidden;
+    border: none;
+    opacity: 0;
+    transform: translateY(50px); /* Increased from 20px */
+    animation: fadeInUp 1.2s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.feature-delay-1 { animation-delay: 0.2s; }
+.feature-delay-2 { animation-delay: 0.4s; }
+.feature-delay-3 { animation-delay: 0.6s; }
+
+.feature-1 {
+    background: linear-gradient(135deg, #ffffff 0%, #e8f0f8 100%);
+    border-left: 5px solid#dbcdf0;
+}
+
+.feature-2 {
+    background: linear-gradient(135deg, #ffffff 0%, #e8f0f8 100%);
+    border-left: 5px solid #f2c6de;
+}
+
+.feature-3 {
+    background: linear-gradient(135deg, #ffffff 0%, #e8f0f8 100%);
+    border-left: 5px solid #faedcb;
+}

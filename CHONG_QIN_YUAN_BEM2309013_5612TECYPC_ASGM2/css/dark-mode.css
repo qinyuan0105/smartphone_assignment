@@ -1,0 +1,117 @@
+[data-theme="dark"] {
+    --bg-primary: #0a1929;
+    --text-primary: #e3f2fd;
+    --card-bg: #132f4c;
+    --border-color: #1e4976;
+    --header-footer-bg: #132f4c;
+    --hover-bg: #173a5e;
+}
+
+[data-theme="dark"] body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] .navbar {
+    background-color: var(--header-footer-bg) !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+[data-theme="dark"] .card {
+    background-color: var(--card-bg);
+    border-color: var(--border-color);
+}
+
+[data-theme="dark"] .form-control {
+    background-color: #1e4976;
+    border-color: var(--border-color);
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] .dropdown-menu {
+    background-color: var(--card-bg);
+    border-color: var(--border-color);
+}
+
+[data-theme="dark"] .dropdown-item {
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] .dropdown-item:hover {
+    background-color: var(--hover-bg);
+}
+
+[data-theme="dark"] .bg-custom {
+    background-color: var(--header-footer-bg) !important;
+}
+
+[data-theme="dark"] .nav-link {
+    color: var(--text-primary) !important;
+}
+
+[data-theme="dark"] .nav-link:hover {
+    color: #90caf9 !important;
+}
+
+[data-theme="dark"] footer {
+    background-color: var(--header-footer-bg) !important;
+    border-top: 1px solid var(--border-color);
+}
+
+[data-theme="dark"] .footer_color {
+    color: var(--text-primary);
+}
+
+.dark-mode-toggle {
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.dark-mode-toggle:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+[data-theme="dark"] .dark-mode-toggle {
+    color: #ffd700;
+}
+
+/* Content Text Colors */
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] h4,
+[data-theme="dark"] h5,
+[data-theme="dark"] h6,
+[data-theme="dark"] p,
+[data-theme="dark"] span,
+[data-theme="dark"] li,
+[data-theme="dark"] label,
+[data-theme="dark"] td,
+[data-theme="dark"] th {
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] .card-title,
+[data-theme="dark"] .card-text {
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] a:not(.btn) {
+    color: #90caf9;
+}
+
+[data-theme="dark"] a:hover:not(.btn) {
+    color: #bbdefb;
+}
+
+[data-theme="dark"] .text-muted {
+    color: #b0bec5 !important;
+}
+
+[data-theme="dark"] .table {
+    color: var(--text-primary);
+}

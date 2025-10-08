@@ -1,0 +1,83 @@
+[
+    {
+        "reviewID": "680370eec40d4",
+        "smartphoneID": "001",
+        "userID": "101",
+        "username": "Imuser1",
+        "rating": 8,
+        "comment": "tesyying 124@ -\/~",
+        "reviewdate": "2025-04-19"
+    },
+    {
+        "reviewID": "68035ee1a339d",
+        "smartphoneID": "002",
+        "userID": "101",
+        "username": "Imuser1",
+        "rating": 10,
+        "comment": "testing for the recommendation score",
+        "reviewdate": "2025-04-19"
+    },
+    {
+        "reviewID": "68035ed128694",
+        "smartphoneID": "002",
+        "userID": "101",
+        "username": "Imuser1",
+        "rating": 1,
+        "comment": "testing if score bad",
+        "reviewdate": "2025-04-19"
+    },
+    {
+        "reviewID": "680359236abc8",
+        "smartphoneID": "002",
+        "userID": "101",
+        "username": "Imuser1",
+        "rating": 4,
+        "comment": "good",
+        "reviewdate": "2025-04-19"
+    },
+    {
+        "reviewID": "6803591b7309d",
+        "smartphoneID": "002",
+        "userID": "101",
+        "username": "Imuser1",
+        "rating": 6,
+        "comment": "thats good",
+        "reviewdate": "2025-04-19"
+    },
+    {
+        "reviewID": "68013b16c4db6",
+        "smartphoneID": "002",
+        "userID": "101",
+        "username": "Imuser1",
+        "rating": 10,
+        "comment": "Dayum cool",
+        "reviewdate": "2025-04-17"
+    },
+    {
+        "reviewID": "201",
+        "smartphoneID": "001",
+        "userID": "101",
+        "username": "Imuser1",
+        "rating": 9,
+        "comment": "Great design, excellent performance.",
+        "reviewdate": "2025-03-12"
+    },
+    {
+        "reviewID": "202",
+        "smartphoneID": "002",
+        "userID": "102",
+        "username": "Imuser2",
+        "rating": 8,
+        "comment": "Good battery life but expensive",
+        "reviewdate": "2025-03-12"
+    },
+    {
+        "reviewID": "203",
+        "smartphoneID": "003",
+        "userID": "103",
+        "username": "Imuser3",
+        "rating": 7,
+        "comment": "Nice camera, but screen could be better.",
+        "reviewdate": "2025-03-12"
+    }
+]
